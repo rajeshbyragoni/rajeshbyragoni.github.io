@@ -10,7 +10,7 @@ body {
   position: relative;
 }
 a {
-  color: #00897b;
+  color: #000;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -18,7 +18,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #00796b;
+  color: #169fe6;
 }
 a:focus {
   text-decoration: none;
@@ -28,7 +28,7 @@ p {
 }
 .btn,
 a.btn {
-  background: #009688;
+  background: #169fe6;
   color: #fff;
   padding: 8px 15px;
   -webkit-border-radius: 2px;
@@ -49,14 +49,14 @@ a.btn {
 .btn:hover,
 a.btn:hover {
   color: #fff;
-  background: #00796b;
+  background: #169fe6;
 }
 #topcontrol {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  background: #009688;
+  background: #169fe6;
   color: #fff;
   text-align: center;
   display: inline-block;
@@ -81,7 +81,7 @@ a.btn:hover {
   cursor: pointer;
 }
 #topcontrol:hover {
-  background: #00796b;
+  background: #169fe6;
   color: #fff;
 }
 #topcontrol .fa {
@@ -91,7 +91,7 @@ a.btn:hover {
   font-weight: normal;
 }
 .header {
-  /*background: #4db6ac;*/
+  /*background: #169fe6;*/
   background-image: url("../img/background.jpg");
   color: #fff;
   position: relative;
@@ -133,12 +133,28 @@ a.btn:hover {
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
-  background-color: #009688;
+ /* background-color: #169fe6;*/
+}
+.ln{
+  background-color:#0a73c4;  
+}
+.fb{
+  background-color:#495ead;  
+}
+.git{
+  background-color:#333;  
+}
+.mal{
+  background-color:#dc4a42;  
+}
+.whp{
+  background-color:#46c756;  
 }
 .header .social a:hover {
   color: #fff;
-  border-color: #00796b;
-  background-color: #00796b;
+  background-color: #169fe6;
+  border-color: #169fe6;
+  background-color: #169fe6;
 }
 .header .actions {
   top: 15px;
@@ -190,7 +206,7 @@ a.btn:hover {
   padding-top: 26px;
 }
 .header .contact-info {
-  background: #00897b;
+  background: #000;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 16px;
@@ -214,10 +230,10 @@ a.btn:hover {
 .header .contact-info li .fa {
   margin-right: 10px;
 }
-.header .container {
+/*.header .container {
   padding-right: 17% !important;
   padding-left: 17% !important;
-}
+}*/
 
 /* Page Nav */
 .page-nav-space-holder {
@@ -226,7 +242,9 @@ a.btn:hover {
   z-index: 99;
 }
 .page-nav-wrapper {
-  background: #00796b;
+/*background: #2d3e52;*/
+background:#169fe6; 
+/* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -242,7 +260,8 @@ a.btn:hover {
   left: 0;
   width: 100%;
   z-index: 100;
-  background: #00796b;
+  background:#169fe6; 
+/* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
 }
 .page-nav-wrapper a {
   color: rgba(255, 255, 255, 0.6);
@@ -250,13 +269,15 @@ a.btn:hover {
   font-weight: 500;
 }
 .page-nav-wrapper .page-nav {
-  margin: 0 auto;
-  display: inline-block;
+ /* margin: 0 auto;
+  display: inline-block;*/
+  width:100%; 
 }
 .page-nav-wrapper .page-nav li {
   margin-right: 30px;
   display: inline-block;
   background: none;
+  margin:0px auto; 
 }
 .page-nav-wrapper .page-nav li:hover,
 .page-nav-wrapper .page-nav li:active {
@@ -321,7 +342,7 @@ a.btn:hover {
   margin-bottom: 0;
 }
 .section-title {
-  color: #00796b;
+  color: #169fe6;
   margin-top: 0;
   margin-bottom: 45px;
   font-size: 24px;
@@ -337,7 +358,7 @@ a.btn:hover {
   font-size: 20px;
 }
 .timeline {
-  border-left: 3px solid #00897b;
+  border-left: 3px solid #000;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   position: relative;
@@ -368,7 +389,7 @@ a.btn:hover {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #fff;
-  border: 3px solid #00897b;
+  border: 3px solid #000;
 }
 /*.timeline .item:after {
   content: "";
@@ -386,7 +407,7 @@ a.btn:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #00897b;
+  background: #000;
   z-index: 10;
 }*/
 .timeline .work-place {
@@ -405,7 +426,7 @@ a.btn:hover {
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
 }
 .timeline .job-meta {
   position: absolute;
@@ -414,7 +435,8 @@ a.btn:hover {
 }
 .timeline .job-meta .title {
   font-size: 18px;
-  color: #4db6ac;
+  color: #000;
+  font-weight:500; 
 }
 .timeline .job-meta .time {
   color: #8a8a8a;
@@ -430,7 +452,7 @@ a.btn:hover {
 }
 .education-section .degree {
   font-size: 18px;
-  color: #4db6ac;
+  color: #169fe6;
   margin-top: 0;
   margin-bottom: 0px;
 }
@@ -531,7 +553,7 @@ a.btn:hover {
   width: 36px;
   height: 36px;
   display: inline-block;
-  background: #4db6ac;
+  background: #169fe6;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -567,7 +589,7 @@ a.btn:hover {
   cursor: pointer;
 }
 .references-section .carousel-indicators li.active {
-  background-color: #4db6ac;
+  background-color: #169fe6;
   width: 10px;
   height: 10px;
   margin: 0;
@@ -596,8 +618,8 @@ a.btn:hover {
   margin-right: 0;
 }
 .portfolio-section .filters .type.active {
-  color: #4db6ac;
-  border-bottom: 2px solid #4db6ac;
+  color: #169fe6;
+  border-bottom: 2px solid #169fe6;
 }
 .portfolio-section .item {
   margin-bottom: 30px;
@@ -606,7 +628,7 @@ a.btn:hover {
   margin-bottom: 0;
 }
 .portfolio-section .item-inner {
-  background: #4db6ac;
+  background: #169fe6;
   color: #fff;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -622,7 +644,7 @@ a.btn:hover {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 .portfolio-section .item-inner:hover {
-  background: #00796b;
+  background: #169fe6;
 }
 .portfolio-section .item-inner:hover img {
   -webkit-opacity: 0.9;
@@ -671,7 +693,7 @@ a.btn:hover {
 }
 
 .footer {
-  background-color: #00796b;
+  background-color: #169fe6;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -886,13 +908,13 @@ a.btn:hover {
   border: 2px solid #fff;
 }
 .config-panel #color-options li.theme-1 a {
-  background: #4db6ac;
+  background: #169fe6;
 }
 .config-panel #color-options li.theme-2 a {
   background-color: #03A9F4;
 }
 .config-panel #color-options li.theme-3 a {
-  background-color: #009688;
+  background-color: #169fe6;
 }
 .config-panel #color-options li.theme-4 a {
   background-color: #4CAF50;
