@@ -171,13 +171,13 @@ a.btn:hover {
 }
 .header .photo_profile {
   position: absolute;
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   top: -50px;
   margin-left: -80px;
   left: 50%;
   border-radius: 50%;
-  border: 5px solid #FBFBFB;
+  border: 5px solid #169fe6;
   overflow:hidden; 
 }
 .header .photo_profile img{width: 100%;}
