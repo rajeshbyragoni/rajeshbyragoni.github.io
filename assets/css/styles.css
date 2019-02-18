@@ -171,20 +171,22 @@ a.btn:hover {
 }
 .header .photo_profile {
   position: absolute;
-  width: 160px;
-  height: 160px;
-  top: -30px;
+  width: 220px;
+  height: 220px;
+  top: -50px;
   margin-left: -80px;
   left: 50%;
   border-radius: 50%;
   border: 5px solid #FBFBFB;
+  overflow:hidden; 
 }
+.header .photo_profile img{width: 100%;}
 .header .name {
   font-size: 36px;
   margin-top: 15px;
   margin-bottom: 10px;
   letter-spacing: 0.5px;
-  margin: 62px 20px 0px 20px;
+  margin: 100px 20px 0px 20px;
   color: #F6F6F6;
   background-color:rgba(0, 0, 0, 0.6);
 }
