@@ -101,10 +101,10 @@ p {
 }
 
 .btn {
-  background: #06a8f1;
+  background: #2ecbc4;
   border: medium none;
   border-radius: 0;
-  color: #fff;
+  color: #fff !important;
   font-size: 12px;
   height: 50px;
   line-height: 50px;
@@ -261,7 +261,7 @@ nav ul li a:hover {color: #06a8f1;}
 }
 
 .active {
-  color: #06a8f1 !important;
+  color: #fff !important;
 }
 
 /*----------------------------------------------------------------------------------*/
