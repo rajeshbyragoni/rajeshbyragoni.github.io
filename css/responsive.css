@@ -194,6 +194,10 @@
     float: none;
     display: inline-block;
   }
+  .list-inline-item {
+    display: inline-block;
+    padding: 4px 0;
+}
 }
 
 /** Width between 600px to 0
