@@ -824,6 +824,8 @@ h5.bl{
   background: #f7f7f7;
   padding-top: 50px;
   padding-bottom:10px;
+  float: left;
+  width:100%; 
 }
 
 #footer .socials-media {
