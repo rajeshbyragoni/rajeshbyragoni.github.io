@@ -279,6 +279,13 @@ nav ul li a:hover {color: #06a8f1;}
   background-size:cover;  
 }
 
+.gulp {
+  background: url("../images/glup.jpg") no-repeat scroll center center / cover;
+  height: 300px;
+  width: 100%;
+  background-size:cover;  
+}
+
 
 #header:before {
 content: '';

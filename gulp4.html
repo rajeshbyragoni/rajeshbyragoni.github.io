@@ -56,7 +56,7 @@
 
 
   <!-- start section header -->
-  <div class="aglr">
+  <div class="gulp">
 
     <div class="container">
 
@@ -70,120 +70,74 @@
     <div class="mn_n">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <h2>Angular Introduction Steps</h2><br/>
-            <h5 class="bl">Step 1 : Install the Angular CLI </h5>
-            <p>npm install @angular/cli (latest cli)<br/>
-              npm install @angular/cli@6.0.2<br/>
-            npm install @angular/cli@6.2.3 </p>
-            <h5>Step 2 : Create a workspace and initial application</h5>
-            <p>ng new projectname</p>
-            <h5>Step 3: Run the application</h5>
-            <p>ng serve<br/>
-              ng serve --host 0.0.0.0 --port 4201<br/>
-            ng serve --port 4201</p>
-            <h5>Step 4: Install Packages in Angular</h5>
-            <p>npm install --save @ng-bootstrap/ng-bootstrap<br/>
-              npm install jquery <br/>
-              npm install bootstrap@3.3.7<br/>
-              npm install font-awesome --save<br/>
-              npm install --save ng5-slider  (price slider)<br/>
-            npm install ngx-chips --save (autocomplete)</p>
-            <h5>** Step 5: Install app-routing in Angular5 only in angular6 it will come autometic</h5>
-            <p>ng generate module app-routing --flat --module=app</p>
-            <p><b>lazy routing commans here</b></p>
-            <p>ng g module modulename --routing</p>
-            <p>inside module we have to create component so for that command <br/>
-              ng g c  foldername/componentname --module=componentname<br/>
-              Ex :<br/>
-            ng g c  login-pages/login --module=login</p>
-            <h5>Step 5: Generate Service in Angular </h5>
-            <p>ng generate service [servicename]<br/>
-             ng g service auth<br/> 
-             ng g service --spec=false<br/>
-           ng g s services/common (with folder)</p>
-           <h5>Step 6: Generate guard auth in Angular </h5>
-           <p>ng generate guard auth </p>
-           <h5>Step 7: Generate pipe in Angular</h5>
-           <p>ng generate pipe [pipename]</p>
-           <h5>Step 8: Generate ng build in Angular</h5>
-           <p>ng build --prod (upload to server)</p>
-            <h5></h5>
-             <h5></h5>
-              <h5></h5>
-               <h5></h5>
-                <h5></h5>
-
-          <!---   github start here -->
-          <h2>Github  Data Pusing and pulling</h2>
-          <h5></h5>
-          <p>First create file name ( New repository) then</p>
-          <p>take link http ........ and</p>
-          <p>git clone https://gitlab.com/gowthaman.d/hotel.git</p>
-          <p>git add .  <br/>
-            git commit -m 'gfgf'<br/>
-            git push<br/>
-          git pull</p>
-          <h5></h5>
-          <!---   github start here -->
-
-         </div>
-         <div class="col-lg-6">
-          <h2>Gulp Sass installation and use</h2><br/>
          
-          <h5>Step 1 : install gulp global</h5>
-          <p> npm install gulp -g (this is globally install )</p>
-          <h5>step 2 : create project folder and in side </h5>
-          <p>we need to create manually</p>
-          <p>scssfolder</p>
-          <p> gulpfile.js</p>
-           <p>index.html</p>
+         <div class="col-lg-12">
+          <h2>Gulp Sass installation and use</h2>
+          <h5></h5>
+          <p> is a tool that helps you out with several tasks when it comes to web development.</p>
+          <p>Sass Folder Structure </p>
+          <p><b>we need to create manually</b></p>
+          <p><b>scssfolder</b> (while runing sass through command line it will create automatically css folder and css file based on scss file )</p>
+          <p> <b>gulpfile.js</b></p>
+           <p><b>index.html</b></p>
+          <p><span><img style="width:100%" src="images/glp.jpg"></span></p>
+          <h5>Gulp Features</h5>
+          <p> Spins up a web server</p>
+          <p> Compiles Sass to CSS</p>
+          <p>Refreshes the browser automatically whenever you save a file</p>
+          <p>Optimizes all assets (CSS, JS, fonts, and images) for production</p>
+           <h5>Gulp setting up</h5>
+          <p>in node.js we need to install gulp for that command</p>
+          <p><b>1) npm install gulp -g (this is globally install )</b></p>
+          <p>next we need to create package,json file through command line...</p>
+          <p><b>2) npm init </b></p>
+          <p>next we can install Gulp into the our project</p>
+          <p><b>3)npm install gulp --save-dev </b> </p>
+          <p>then now it will install node_module in our paject</p>
+          <p>The first step in gulpfile.js we need to declered below</p>
+          <p><b>4) const gulp = require('gulp'); </b></p>
+          <p>The require statement tells Node to look into the node_modules folder for a package named gulp. Once the package is found, we assign its contents to the variable gulp.</p>
+          <p>next we can install gulp-sass for compile Sass to CSS</p>
+          <p><b>5)npm install gulp-sass --save-dev </b></p>
+          <p>and after install we can decler function in gulpfile.js</p>
+          <p><span><img style="width:100%" src="images/ss.jpg"></span></p>
+         <!--  <p>in this code (image) 2 methods are there <br/><strong>gulp.src (it will tells the Gulp what files to use for the task,)</strong><br/><strong>gulp.dest (it will tells Gulp where to output the files once the task is completed.)</strong></p> -->
+          <p>after that if you write code in our styles.scss file (useing this command "gulp style (because our function name in img style)" we can run. here style is function name you check it above img ) it will compile to style.css </p><br/>
+          <p>we can tell Gulp to automatically run the sass file and browsersync. whenever a file is saved through a process called "watching".</p>
+           <p>for that we need install and declere to gulpfile.js below code</p>
+           <p><b>6) npm install browser-sync --save-dev</b></p>
+           <p><span><img style="width:100%" src="images/wt.jpg"></span></p>
+          <p>next if you run command line <b>"gulp watch"</b> whenever save file it will automaticall save and complie and as well as Browser Sync also it will happen.</p>
+
+          <h5>gulp minifycss</h5>
+          <p><b>7) npm install --save gulp-uglifycss</b></p>
+          <p>for minifycss file we can install</p>
+          <p>after installing we can immport code to gulpfile.js below</p>
+           <p><span><img style="width:100%" src="images/css1.jpg"></span></p>
+           <p>after that we can run <b>gulp minifycss</b> then it will minifycss</p>
+
+           <h5>gulp minifyjs</h5>
+          <p><b>8) npm install --save-dev gulp-minify</b></p>
+          <p>for minifyjs file we can install</p>
+          <p>after installing we can immport code to gulpfile.js below</p>
+           <p><span><img style="width:100%" src="images/jsm.jpg"></span></p>
+           <p>after that we can run <b>gulp minifyjs</b> then it will minifycss</p>
+
+           <h5>gulp Optimizing Images </h5>
+          <p><b>8) npm install gulp-imagemin --save-dev</b></p>
+          <p>for Optimizing Images we can install</p>
+          <p>after installing we can import code to gulpfile.js below</p>
+           <p><span><img style="width:100%" src="images/opm.jpg"></span></p>
+           <p>after that we can run <b>gulp optmimg</b> then it will Optimizing Images </p>
           
-          <h5>step 3 : install gulp in our project folder  </h5>
-          <p> npm install gulp --save-dev</p>
           
-           <h5>step 4 : create packgejson file</h5>
-          <p>npm init</p>
-
-          <h5>step 5 : install all package Dependencies</h5>
-          <p>npm install gulp-sass --save-dev <b>for sass</b></p>
-          <p>npm install browser-sync --save-dev  <b>for for browsersync and watch</b></p>
-          <p>npm install --save gulp-uglifycss <b>for minifycss</b></p>
-          <p>npm install --save-dev gulp-minify <b>for minifyjs</b></p>
-          <p>npm install gulp-imagemin --save-dev  <b>for Optimizing Images </b></p>
-
-          <h5>step 6 : .....</h5>
-          <p>......</p>
-
          
           
 
 
-
-          <h2>Reactjs Introduction Steps</h2>
-          <h5></h5>
-          <h5>Step 1 : Create react App and start</h5>
-          <p>npx create-react-app my-app<br/>
-            cd my-app<br/>
-          npm start</p>
-          <h5>Step 2: Create Dom routing and time freme</h5>
-          <p><b>npm i react-router-dom</b><br/>after that import to app.js <br/> import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';</p>
-          <p><b>npm i moment</b> (for time freme)</p>
-          <p><b>npm i axios</b><br/> (for client and for calling api)<br/>after that import to component <br/> import axios from 'axios';</p>
-          <p><b>npm i react-moment</b><br/>for date after that which page you want <br/>import Moment from 'react-moment';</p>
-          <h5>Step 3: Install Packages in Reactjs</h5>
-          <p>npm install --save @ng-bootstrap/ng-bootstrap<br/>
-            npm i bootstrap<br/>
-            npm i react-multi-carousel (slider )<br/>
-            npm i popper.js (for bootstrap js)<br/>
-            npm install jquery <br/>
-            npm install bootstrap@3.3.7<br/>
-            npm install font-awesome --save<br/>
-            npm i font-awesome<br/>
-          npm install font-awesome@4.7.0</p>
-          <h5></h5>
+          
           <p></p>
-          <h5></h5>
+          <h5>stil........................................................................</h5>
           <p></p>
           <h5></h5>
           <p></p>
