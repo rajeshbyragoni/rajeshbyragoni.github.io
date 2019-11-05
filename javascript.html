@@ -152,7 +152,7 @@
                               A closure is a function having access to the parent scope, even after the parent function has closed.
                               <span><img  style="width:100%" src="images/clsr.png"></span>
                             </p>
-                            <h5>how to convert string to array ?</h5>
+                            <h5>how to convert array to string ?</h5>
                             <p>using split we we can convert</p>
                             <p><span><img  style="width:100%" src="images/spte.png"></span></p>
 
@@ -312,8 +312,9 @@ Next time the user visits the page, the cookie "remembers" name.</P>
                 <p>Find exmpl<br/> <b><br/>
                   $(document).ready(function(){<br/>
                   $("div").children("p").css({"color": "red", "border": "2px solid red"});<br/>
-                });
-                it will select more then one level element "p" inside span also it will select but children it will it select inside "p"... 1 level of down the dom...
+                });<br/>
+                find() it will select more then one level element "p" inside span also it will select <br/>
+                but children it will not select inside "p"... 1 level of down the dom...
               </b></p>
               <span><img style="width:100%" src="images/find.jpg"></span></p>
 
@@ -337,7 +338,7 @@ Next time the user visits the page, the cookie "remembers" name.</P>
 
             <h5>jQuery closest() Method ?</h5>
             <p>closest() method is jquery default method</p>
-            <p>The closest() method returns the first ancestor(means first grandparent) of the selected element.</p>
+            <p>The closest() method returns the first ancestor(means first parent based on passing parameter) of the selected element.</p>
                <span><img style="width:100%" src="images/est.png"></span>
 
             <h5>jQuery siblings() Method empl ?</h5>
