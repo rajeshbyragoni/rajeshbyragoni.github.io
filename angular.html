@@ -197,6 +197,11 @@
       
 
       <p> <span><img src="images/serc.jpg"></span></p>
+      <h5>what is angularjs MVC ?</h5>
+      <p>MVC stands for Model View Controller. It is a software design pattern for developing web applications. It is very popular because it isolates the application logic from the user interface layer and supports separation of concerns.</p>
+      <p><b>Model: </b>It is responsible for managing application data. It responds to the requests from view and to the instructions from controller to update itself.<br/>
+<b>View:</b> It is responsible for displaying all data or only a portion of data to the users. It also specifies the data in a particular format triggered by the controller's decision to present the data. They are script-based template systems such as JSP, ASP, PHP and very easy to integrate with AJAX technology.<br/>
+<b/>Controller:</p> It is responsible to control the relation between models and views. It responds to user input and performs interactions on the data model objects. The controller receives input, validates it, and then performs business operations that modify the state of the data model.</p>
       <h5>Explain on how to use Subscribe  with an example?</h5>
       <p>An Observable instance begins publishing values only when someone subscribes to it.</p>
       <p>So you need to subscribe by calling the subscribe() method of the instance</p>
@@ -217,19 +222,20 @@
       <h5>What are router links?</h5>
       <p>The RouterLink is a directive on the anchor tags give the router control over those elements. Since the navigation paths are fixed, you can assign string values to router-link directive as below,</p>
       <p><span><img style="width:100%" src="images/rt.jpg"></span></p>
-      <h5>What are the class decorators in Angular?</h5>
+      <h5>What is decorator ? and What are the class decorators in Angular?</h5>
+      <p>Decorators are a design pattern that is used to separate modification or decoration of a class without modifying the original source code.</p>
       <p>A class decorator is a decorator that appears immediately before a class definition, which declares the class to be of the given type, and provides metadata suitable to the type The following list of decorators comes under class decorators,<br/>@Component()
-@Directive()<br/>
-@Pipe()<br/>
-@Injectable()<br/>
-@NgModule()</p>
+        @Directive()<br/>
+        @Pipe()<br/>
+        @Injectable()<br/>
+      @NgModule()</p>
       <h5>What are the restrictions on declarable classes?</h5>
       <p>Below classes shouldn't be declared,<br/>
 
-A class that's already declared in another NgModule<br/>
-Ngmodule classes<br/>
-Service classes<br/>
-Helper classes</p>
+        A class that's already declared in another NgModule<br/>
+        Ngmodule classes<br/>
+        Service classes<br/>
+      Helper classes</p>
       <h5>How do you pass headers for HTTP client?</h5>
       <p>You can directly pass object map for http client or create HttpHeaders class to supply the headers.</p>
       <p><span><img style="width:100%" src="images/hd.jpg"></span></p>
@@ -245,7 +251,7 @@ Helper classes</p>
       <p><span><img style="width:100%" src="images/tst.jpg"></span></p>
       <h5>What are the ways to trigger change detection in Angular?</h5>
       <p>There are 3 possible ways,<br/>ApplicationRef.tick():<br/>NgZone.run(callback):<br/>ChangeDetectorRef.detectChanges():</p>
-     
+
 
 
 
@@ -349,63 +355,63 @@ Helper classes</p>
         {"name": "@angular/language-service"}
       ]</b></p>
 
-       <h5>What are the differences of various versions of Angular 2/4/5/6/7 ?</h5>
+      <h5>What are the differences of various versions of Angular 2/4/5/6/7 ?</h5>
       <table width="100%" cellspacing="0" cellpadding="7" border="1">
-          <tr>
-           <td>angular 1 / angularjs </td> 
-            
-         </tr>
-         <tr>
-           <td>Angular 1 (AngularJS) is the first angular framework released in the year 2010. • AngularJS is not built for mobile devices. • It is based on controllers with MVC architecture.</td> 
-            
-         </tr>
-          <tr>
-           <td>angular 2 </td> 
-            
-         </tr>
-         <tr>
-           <td>Angular 2 was released in the year 2016. Angular 2 is a complete rewrite of Angular1 version. • The performance issues that Angular 1 version had has been addressed in Angular 2 version. • Angular 2 is built from scratch for mobile devices unlike Angular 1 version. • Angular 2 is components based.</td> 
-            
-         </tr>
-          <tr>
-           <td>angular 4 </td> 
-            
-         </tr>
-         <tr>
-           <td> The compiler generated code file size in AOT mode is very much reduced. • With Angular 4 the production bundles size is reduced by hundreds of KB’s. • Animation features are removed from angular/core and formed as a separate package. • Supports Typescript 2.1 and 2.2.</td> 
-            
-         </tr>
-          <tr>
-           <td>angular 5 </td> 
-            
-         </tr>
-         <tr>
-           <td>Angular 5 makes angular faster. It improved the loading time and execution time. • Shipped with new build optimizer. • Supports Typescript 2.5.</td> 
-            
-         </tr>
-          <tr>
-           <td>angular 6 </td> 
-            
-         </tr>
-         <tr>
-           <td> It is released in May 2018. • Includes Angular Command Line Interface (CLI), Component Development KIT (CDK), Angular Material Package.</td> 
-            
-         </tr>
-          <tr>
-           <td>angular 7 </td> 
-            
-         </tr>
-         <tr>
-           <td> It is released in October 2018. • TypeScript 3.1 • RxJS 6.3 • New Angular CLI • CLI Prompts capability provide an ability to ask questions to the user before they run. It is like interactive dialog between the user and the CLI • With the improved CLI Prompts capability, it helps developers to make the decision. New ng commands ask users for routing and CSS styles types(SCSS) and ng add @angular/material asks for themes and gestures or animations.</td> 
-            
-         </tr>
-         
-         
-       </table>
+        <tr>
+         <td>angular 1 / angularjs </td> 
+
+       </tr>
+       <tr>
+         <td>Angular 1 (AngularJS) is the first angular framework released in the year 2010. • AngularJS is not built for mobile devices. • It is based on controllers with MVC architecture.</td> 
+
+       </tr>
+       <tr>
+         <td>angular 2 </td> 
+
+       </tr>
+       <tr>
+         <td>Angular 2 was released in the year 2016. Angular 2 is a complete rewrite of Angular1 version. • The performance issues that Angular 1 version had has been addressed in Angular 2 version. • Angular 2 is built from scratch for mobile devices unlike Angular 1 version. • Angular 2 is components based.</td> 
+
+       </tr>
+       <tr>
+         <td>angular 4 </td> 
+
+       </tr>
+       <tr>
+         <td> The compiler generated code file size in AOT mode is very much reduced. • With Angular 4 the production bundles size is reduced by hundreds of KB’s. • Animation features are removed from angular/core and formed as a separate package. • Supports Typescript 2.1 and 2.2.</td> 
+
+       </tr>
+       <tr>
+         <td>angular 5 </td> 
+
+       </tr>
+       <tr>
+         <td>Angular 5 makes angular faster. It improved the loading time and execution time. • Shipped with new build optimizer. • Supports Typescript 2.5.</td> 
+
+       </tr>
+       <tr>
+         <td>angular 6 </td> 
+
+       </tr>
+       <tr>
+         <td> It is released in May 2018. • Includes Angular Command Line Interface (CLI), Component Development KIT (CDK), Angular Material Package.</td> 
+
+       </tr>
+       <tr>
+         <td>angular 7 </td> 
+
+       </tr>
+       <tr>
+         <td> It is released in October 2018. • TypeScript 3.1 • RxJS 6.3 • New Angular CLI • CLI Prompts capability provide an ability to ask questions to the user before they run. It is like interactive dialog between the user and the CLI • With the improved CLI Prompts capability, it helps developers to make the decision. New ng commands ask users for routing and CSS styles types(SCSS) and ng add @angular/material asks for themes and gestures or animations.</td> 
+
+       </tr>
 
 
-    </div>
-  </div>
+     </table>
+
+
+   </div>
+ </div>
 </div>
 </div>
 </div>
