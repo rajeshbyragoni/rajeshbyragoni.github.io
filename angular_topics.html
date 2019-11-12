@@ -160,8 +160,9 @@
             <p><b>Data passing child to parent exp...</b></p>
             <p><span><img style="width:100%" src="images/cid.jpg"></span></p>
             <p><span><img style="width:100%" src="images/prt.jpg"></span></p>
-            <h5>Pipes</h5>
+            <h5>what are Pipes ?</h5>
             <p>pipes allow the transfer data before displaying DOM View </p>
+            <p> Pipes allow us to change the data inside the template. Normally, a pipe takes the data and transforms this input to the desired output. </p>
             <p><span><img style="width:100%" src="images/pi.jpg"></span></p>
             <h5>Services</h5>
             <p>Service is nothing but a class with a specific purpose</p>
@@ -196,11 +197,15 @@
             <p>Rxjs is library for enable for observable in angular</p>
             <p>it is reactive extension for javascript</p>
 
-            <p><b>Observables</b></p>
+            <h5><b>what are Observables? </b></h5>
+            <p>It will support for passing messages/data between publishers and subscribers in your application.</p>
+            <p>They are mainly used for event handling, asynchronous programming, and handling multiple values.</p>
+            <p>In this case, you define a function for publishing values, but it is not executed until a consumer subscribes to it.</p>
             <p>observable a sequence of items that arrive asynchronously over time</p>
             <p>HTTP call - single item</p>
             <p>single item -HTTP response</p>
             <p><span><img style="width:100%" src="images/db.jpg"></span></p>
+            <p><span><img style="width:100%" src="images/scr.jpg"></span></p>
             <h5></h5>
             <h5></h5>
             <h5></h5>
@@ -212,8 +217,16 @@
           </div>
           <div class="col-lg-6">
             <h2>&nbsp;</h2><br/>
-            <h5>Services in HTTP Observable and  Error Handling</h5>
+            <h5>Explain on how to use HttpClient with an example?</h5>
+            <p>Import HttpClient into root module:</p>
+            <p>Inject the HttpClient into the application: Let's create a userProfileService(userprofile.service.ts) as an example. It also defines get method of HttpClient</p>
+
             <p><span><img style="width:100%" src="images/sert.jpg"></span></p>
+            <p>Create a component for subscribing service: Let's create a component called</p>
+            <p><span><img style="width:100%" src="images/scr.jpg"></span></p>
+            <h5>What is subscribing?</h5>
+            <p>when Observable publishing data that time only subscribes to it. by calling  the subscribe() method</p>
+             <p><span><img style="width:100%" src="images/scr.jpg"></span></p>
 
             <h5>Routing and Wildcard Route and Redirecting Routes</h5>
             <p>The Angular Router which represents a particular component view for a given URL is not part of Angular Core. It is available in library named @angular/router to import required router components. For example, we import them in app module as below,</p>
@@ -236,7 +249,14 @@
              <p>well suited for complex  scenarios</p>
              <p>we make want to fields dynamic, custom validation danamic validations this comlpex scenarios reactform it will work</p>
              <p><a href="https://www.codingame.com/playgrounds/8012/angular-form-validation-example-tutorial" target="_blank">View More..</a></p>
-             <h5>authgard</h5>
+             <h5>what is authgard ***</h5>
+             <p>Guards in Angular are nothing but the functionality, logic, and code which are executed before the route is loaded or the ones leaving the route.</p>
+             <p><b>Different types of guards,</b></p>
+             <p>1) CanActivate guard (e.g. it checks route access).<br/>
+                2) CanActivateChild guard (checks child route access).<br/>
+                3) CanDeactivate guard (prompt for unsaved changes).<br/>
+                4) Resolve guard (pre-fetching route data).<br/>
+                5) CanLoad guard (check before loading feature module assets).</p>
              <p>In angular Authentication & Reactive Form Validation</p>
              <p>if we apply auth guard  we can do like below code </p>
              <p>Frist we need project and interface using below cammand</p>
@@ -266,7 +286,8 @@
               <p><span><img style="width:100%" src="images/ag.jpg"></span></p>
               <p><b>after done above things it will come proper output that is called Authentication </b></p>
               <h5>What is lazy loading?</h5>
-      <p>Lazy loading is one of the most useful concepts of Angular Routing. It helps us to download the web pages in chunks instead of downloading everything in a big bundle. It is used for lazy loading by asynchronously loading the feature module for routing whenever required using the property loadChildren. </p>
+      <p>Lazy loading is one of the most useful concepts of Angular Routing. 
+       Angular that allows you to load components asynchronously when a specific route is activated. using the property loadChildren. </p>
       <p><span><img style="width:100%" src="images/lz.jpg"></span></p>
       <h5>What are the advantages of using Angular?</h5>
       <p>Client and server communication is facilitated</p>
@@ -289,7 +310,20 @@
 Attribute − Directive activates when a matching attribute is encountered.<br/>
 CSS − Directive activates when a matching CSS style is encountered.<br/>
 Comment − Directive activates when a matching comment is encountered</p>
+<h5>What is RxJS?</h5>
+<p>RxJS (Reactive Extensions for JavaScript) is a library for reactive programming using observables that makes it easier to compose asynchronous or callback-based code.</p>
+<p>For example, we can import observables and operators for using HttpClient as below,</p>
 
+<p>import { Observable, throwError } from 'rxjs';</p>
+<p>import { catchError, retry } from 'rxjs/operators';</p>
+<h5>What is a promise?</h5>
+<p>A promise is an object that may produce a single value</p>
+<p>Promises are used to handle asynchronous operations. They provide an alternative approach for callbacks by reducing the callback hell and writing the cleaner code.</p>
+<p><img src="images/ad.jpg"></p>
+<h5>What are the three states of promise?</h5>
+<p><b>Pending:</b> This is an initial state of the Promise before an operation begins</p>
+<p><b>Fulfilled:</b> This state indicates that specified operation was completed.</p>
+<p><b>Rejected:</b> This state indicates that the operation did not complete. In this case an error value will be thrown.</p>
 
           </div>
         </div>
