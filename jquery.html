@@ -41,7 +41,7 @@
 				<div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 				<ul class="nav-menu list-unstyled">
 					<li><a href="all.html" class="smoothScroll">Html</a></li>
-					<li><a href="java.html" class="smoothScroll">Javascript</a></li>
+					<li><a href="javascript.html" class="smoothScroll">Javascript</a></li>
 					<li><a href="jquery.html" class="smoothScroll">Jquery</a></li>
 					<li><a href="angular.html" class="smoothScroll">Angular</a></li>
 					<li><a href="doc.html" class="smoothScroll">DOC</a></li>
@@ -73,92 +73,160 @@
 						<h2>Jquery</h2><br/>
 
 						<h5>What is jQuery?</h5>
-                        	<p>jQuery is not a programming language but a well written JavaScript code. </p>
-                        	<h5>Why jQuery is needed?</h5>
-                        	<p>Used to develop browser compatible web applications<br/>Improve the performance of an application<br/>Very fast and extensible<br/>UI related functions are written in minimal lines of codes<br/>jQuery is a lightweight, "write less, do more", JavaScript library.</p>
-                        	<h5>In what scenarios jQuery can be used?</h5>
-                        	<p>Apply CSS static or dynamic<br/>
-                        		Calling functions on events<br/>
-                        		Manipulation purpose<br/>
-                        	Mainly for Animation effects</p>
-                        	<h5>jQuery Syntax</h5>
-                        	<p>Basic syntax is: $(selector).action()</p>
-                        	<h5>jQuery Selectors</h5>
-                        	<p>jQuery selectors allow you to select and manipulate HTML element(s).</p>
-                        	<p>Class selector, #Id selector, elementname</p>
+						<p>jQuery is a lightweight, "write less, do more", JavaScript library.. </p>
+						<h5>Why jQuery is needed?</h5>
+						<p>Used to develop browser compatible web applications<br/>Improve the performance of an application<br/>Very fast and extensible<br/>UI related functions are written in minimal lines of codes<br/>jQuery is a lightweight, "write less, do more", JavaScript library.</p>
+						<h5>In what scenarios jQuery can be used?</h5>
+						<p>Apply CSS static or dynamic<br/>
+							Calling functions on events<br/>
+							Manipulation purpose<br/>
+						Mainly for Animation effects</p>
+						<h5>jQuery Syntax</h5>
+						<p>Basic syntax is: $(selector).action()</p>
+						<h5>jQuery Selectors</h5>
+						<p>using jQuery selectors we can manipulate HTML element(s).</p>
+						<p>based on their name, id, classes, types, attributes, values of attributes and much more</p>
+						<h5>What are Events?</h5>
+						<p><b>Mouse Events:</b> click, dblclick, mouseenter,mouseleave</p>
+						<p><b>Keyboard Events :</b>keypress, keydown,keyup </p>
+						<p><b>Form Events :</b>submit, change,focus, blur </p>
+						<p><b>Document/Window Events :</b>load, resize,scroll, unload </p>
+						<h5>The on() Method</h5>
+						<p>using on() method we can add one or more event handlers for the selected elements</p>
+						<span><img style="width:100%" src="images/on.png"></span>
+						<h5>jQuery Effects</h5>
+						<p>Hide, Show, Toggle, Slide, Fade, and Animate.</p>
+						<p><b>jQuery hide() and show()</b></p>
+						<p>Syntax:</p>
+						<p>$(selector).hide(speed,callback);<br/>
+
+						$(selector).show(speed,callback);</p>
+						<span><img style="width:100%" src="images/sht.png"></span>
+						<p>instead of using hide and show we can use toggle() method</p>
+						<span><img style="width:100%" src="images/tyl.png"></span>
+						<h5>jQuery Effects - Fading </h5>
+						<p>using fade effects we can hidden and visible of elements</p>
+						<p>fading methods are : fadeIn(), fadeOut(), fadeToggle(), fadeTo()</p>
+						<p>Syntax: $(selector).fadeIn(speed,callback);</p>
+						<p>speed is optional parameter specifies the duration of effect. it can take value slow , fast, or milliseconds.</p>
+						<span><img style="width:100%" src="images/fg.png"></span>
+						<p><b>jQuery fadeToggle() Method</b></p>
+						<p>instead of using fadeIn and fadeOut we can use fadeToggle() method</p>
+						<p>Syntax : $(selector).fadeToggle(speed,callback);</p>
+						<span><img style="width:100%" src="images/tu.png"></span>
+						<h5>jQuery fadeTo() Method</h5>
+						<p>using fadeTo() method we can pass opacity also.</p>
+						<p>syntax : $(selector).fadeTo(speed,opacity,callback);</p>
+						<span><img style="width:100%" src="images/tt.png"></span>
+						<h5>jQuery Effects - Sliding</h5>
+						<p>Using slideing we can slide element up and down</p>
+						<p>slideDown() , slideUp(), slideToggle()</p>
+						<p>syntax : $(selector).slideDown(speed,callback);</p>
+						<span><img style="width:100%" src="images/qw.png"></span>
+						<h5>jQuery slideToggle() Method</h5>
+						<p>instead of using slideDown and slideUp we can use slideToggle() method</p>
+						<p>syntax : $(selector).slideToggle(speed,callback);</p>
+						<span><img style="width:100%" src="images/th.png"></span>
+						<h5>jQuery Effects - Animation</h5>
+						<p>using animate we can create custom animation</p>
+						<p>syntax : $(selector).animate({params},speed,callback);</p>
+						<p>here params parameter is css properties</p>
+						<span><img style="width:100%" src="images/df.png"></span>
+						<h5>jQuery animate() - Using Pre-defined Values</h5>
+						<p>"show", "hide", or "toggle" are jquery pre-defined values</p>
+						<h5>jQuery Stop Animations</h5>
+						<p>using jQuery stop() method we can stop animations or effects before it is finished.</p>
+						<p>syntax : $(selector).stop(stopAll,goToEnd);</p>
+
+						<span><img style="width:100%" src="images/tot.png"></span>
+						<h5>jQuery Callback Functions</h5>
+						<p>A callback function is executed after the current function finished.</p>
+						<p>JavaScript statements are executed line by line. </p>
+						<p>syntax : $(selector).hide(speed,callback); </p>
+						<span><img style="width:100%" src="images/clv.jpg"></span>
+						<h5>jQuery - Chaining</h5>
+						<p>Chaining is used to connect multiple jQuery methods and functions in a selector.</p>
+						<span><img style="width:100%" src="images/ch.jpg"></span>
 
 
 
 
-                        	<h5>What is jQuery connect?</h5>
-                        	<p>A ‘ jQuery connect’  is a plugin used to connect or bind a function with another  function. Connect is used to execute function from any other function or plugin is executed.</p>
-                        	<h5>What is the use of each function in jQuery?</h5>
-                        	<p>Each function is used to iterate each and every element of an object. It is used to loop DOM elements, arrays and the object properties.</p>
-                        	<h5>What is the difference between size and length of jQuery?</h5>
-                        	<P>Size and length both returns the number of element in an object. But length is faster than the size because length is a property and size is a method.</P>
-                        	<h5>What are the four parameters used for jQuery Ajax method?</h5>
-                        	<p>The four parameters are<br/>
 
-                        		URL – Need to specify the URL to send the request<br/>
-                        		type – Specifies type of request(Get or Post)<br/>
-                        		data – Specifies data to be sent to server<br/>
-                        	Cache – Whether the browser should cache the requested page</p>
-                        	<h5>jQuery Callback Functions ?</h5>
-                        	<p>A callback function is executed after the current function is 100% finished.</p>
-                        	<span><img style="width:100%" src="images/cll.png"></span>
-                        	<h5>How can we debug jQuery?</h5>
-                        	<p>There are two ways to debug jQuery:<br/>Add the debugger to the line from where we have to start debugging and then run Visual Studio in Debug mode with F5 function key.<br/>Insert a break point after attaching the process</p>
-                        	<h5>What is the use of jQuery.ajax method ()?</h5>
-                        	<p>jQuery.ajax method is used for asynchronous HTTP requests.</p>
-                        	<h5>What is called chaining?</h5>
-                        	<p>Chaining is used to connect multiple jQuery methods and functions in a selector.</p>
-                        	<h5>jQuery - Get and Set Content and Attributes ?</h5>
-                        	<p>text() - Sets or returns the text content of selected elements<br/>
-                        		html() - Sets or returns the content of selected elements (including HTML markup)<br/>
-                        	val() - Sets or returns the value of form fields</p>
-                        	<p><b>
-                        		$(document).ready(function(){<br/>
-                        		$("#btn1").click(function(){<br/>
-                        		alert("Text: " + $("#test").text());<br/>
-                        	});<br/>
-                        	$("#btn2").click(function(){<br/>
-                        	alert("HTML: " + $("#test").html());<br/>
-                        });<br/>
-                        $(document).ready(function(){<br/>
-                        $("button").click(function(){<br/>
-                        alert("Value: " + $("#test").val());<br/>
-                    });<br/>
-                });
-            });
-        </b></p>
-        <h5>Get Attributes - attr() ?</h5>
-        <p><b>$("button").click(function(){<br/>
-        	alert($("#w3s").attr("href"));<br/>
-        });</b></p>
-        <h5>Set Attributes - attr() ?</h5>
-        <p><b>
-        	$(document).ready(function(){<br/>
-        	$("button").click(function(){<br/>
-        	$("#w3s").attr("href", "https://www.w3schools.com/jquery/");<br/>
-        });<br/>
-    });
-</b></p>
+
+
+
+
+
+
+
+
+						
+						<h5>jQuery - Get and Set Content and Attributes ?</h5>
+						<p>text() - Sets or returns the text content of selected elements<br/>
+							html() - Sets or returns the content of selected elements (including HTML markup)<br/>
+						val() - Sets or returns the value of form fields</p>
+						<p><b>
+							$(document).ready(function(){<br/>
+							$("#btn1").click(function(){<br/>
+							alert("Text: " + $("#test").text());<br/>
+						});<br/>
+						$("#btn2").click(function(){<br/>
+						alert("HTML: " + $("#test").html());<br/>
+					});<br/>
+					$(document).ready(function(){<br/>
+					$("button").click(function(){<br/>
+					alert("Value: " + $("#test").val());<br/>
+				});<br/>
+			});
+		});
+	</b></p>
+	<h5>Get Attributes - attr() ?</h5>
+	<p><b>$("button").click(function(){<br/>
+		alert($("#w3s").attr("href"));<br/>
+	});</b></p>
+	<h5>Set Attributes - attr() ?</h5>
+	<p><b>
+		$(document).ready(function(){<br/>
+		$("button").click(function(){<br/>
+		$("#w3s").attr("href", "https://www.w3schools.com/jquery/");<br/>
+	});<br/>
+});
+</b>
+<p>attr callback function</p>
+<span><img style="width:100%" src="images/ate.jpg"></span>
+</p>
+<p>Set Content and Attributes</p>
+<span><img style="width:100%" src="images/ew.jpg"></span>
+<h5>A Callback Function for text(), html(), and val()</h5>
+<p>All of the three jQuery methods above: text(), html(), and val(), also come with a callback function.</p>
+<p>The callback function has two parameters: the index of the current element in the list of elements selected and the original (old) value.</p>
+<span><img style="width:100%" src="images/ckj.jpg"></span>
 <h5>How will you Add New HTML Content</h5>
 <p>We will look at four jQuery methods that are used to add new content:</p>
 <p>append() - Inserts content at the end of the selected elements<br/>
 	prepend() - Inserts content at the beginning of the selected elements<br/>
 	after() - Inserts content after the selected elements<br/>
 before() - Inserts content before the selected elements</p>
+<span><img style="width:100%" src="images/app.jpg"></span>
 <h5>how will you Remove Elements/Content ?</h5>
 <p>To remove elements and content, there are mainly two jQuery methods:</p>
 <p><b>remove() - Removes the selected element (and its child elements)<br/>
 empty() - Removes the child elements from the selected element</b></p>
+<span><img style="width:100%" src="images/rm.jpg"></span>
+<p>we can pass parameter also same below image base on selected element and matched element it will remove</p>
+<span><img style="width:100%" src="images/pa.jpg"></span>
+<p>empty also same like top image</p>
 <h5>jQuery Manipulating CSS classes</h5>
 <p>jQuery has several methods for CSS manipulation. We will look at the following methods:</p>
 <p><b>addClass()</b> - Adds one or more classes to the selected elements<br/>
 	<b>removeClass()</b> - Removes one or more classes from the selected elements<br/>
 	<b>toggleClass()</b> - Toggles between adding/removing classes from the selected elements<br/>
-	<b>css()</b> - Sets or returns the style attribute</p>
+	<b>css()</b> - Sets or returns the style attribute. syntax : css("propertyname","value");<br/>if add multiple css like<span><img style="width:100%" src="images/yi.jpg"></span> </p>
+	<span><img style="width:100%" src="images/mn.jpg"></span>
+	<h5>jQuery toggleClass() Method</h5>
+	<p>instead of using addClass and removeClass we can use toggleClass() method</p>
+	<span><img style="width:100%" src="images/tp.jpg"></span>
+
 	<h5>jQuery - Dimensions methods</h5>
 	<p>jQuery has several important methods for working with dimensions:</p>
 	<p>width()<br/>
@@ -167,134 +235,173 @@ empty() - Removes the child elements from the selected element</b></p>
 		innerHeight()<br/>
 		outerWidth()<br/>
 	outerHeight()</p>
+	<h5>jQuery Traversing - Ancestors</h5>
+	<p>Traversing Up the DOM Tree</p>
+	<p>parent() : method returns the direct parent element of the selected element.<br/>
+		<span><img style="width:100%" src="images/oi.jpg"></span>
+		parents() : method returns all ancestor elements of the selected element<br/>
+		You can also use an optional parameter to filter the search for ancestors.<br/>
+		<span><img style="width:100%" src="images/ppps.jpg"></span>
+	parentsUntil() : method returns all ancestor elements between two given arguments</p>
+	<span><img style="width:100%" src="images/gf.jpg"></span>
+	
+		
 
-	<h5>Traversing Up the DOM Tree</h5>
-	<p>parent()<br/>
-		parents()<br/>
-	parentsUntil()</p>
-	<h5>What is difference b/w find(and children() ?</h5>
-	<p>find() method is used to search the more then one level down the tree (DOM tree) while children() method is uesd to find the single level down the tree.</p>
 
-	<p>Find exmpl<br/> <b><br/>
-		$(document).ready(function(){<br/>
-		$("div").children("p").css({"color": "red", "border": "2px solid red"});<br/>
-	});<br/>
-	find() it will select more then one level element "p" inside span also it will select <br/>
-	but children it will not select inside "p"... 1 level of down the dom...
-</b></p>
-<span><img style="width:100%" src="images/find.jpg"></span></p>
 
-<p>Children exmpl <b><br/>
-	$(document).ready(function(){<br/>
-	$("div").children("p").css({"color": "red", "border": "2px solid red"});<br/>
-});
-it will select only child element "p"... 1 level of down the dom...
-</b></p>
-<span><img style="width:100%" src="images/child.jpg"></span></p>
+	</div>
+	<div class="col-lg-6">
+		<h2>&nbsp;</h2><br/>
+		<h5>jQuery Traversing - Descendants </h5>
+	<p>A descendant is a child, grandchild, great-grandchild, and so on.</p>
+	<p><b>children()</b> : method returns all direct children of the selected element.<br/>This method it will return single level down the DOM tree.  </p>
+	<span><img style="width:100%" src="images/bn.jpg"></span>
+	<p><b>find()</b> : method return child elements of selected element. it will search the more then one level down the tree (DOM tree)</p>
+	<p>based on matched parameter it will return</p>
+	<span><img style="width:100%" src="images/gd.jpg"></span>
+		<h5>what is difference between find and closest in jquery ?</h5>
+	<p>The closest selector traverses up the DOM to find the parent that matches the conditions. the .find selector traverses down the DOM where the event occurred, that matches the conditions</p>
+	<h5>jQuery closest() Method ?</h5>
+	<p>closest() method is jquery default method</p>
+	<p>The closest() method returns the first ancestor(means first parent based on passing parameter) of the selected element.</p>
+	<span><img style="width:100%" src="images/est.png"></span>
 
-<h5>Traversing Sideways in The DOM Tree siblings...</h5>
-<p>There are many useful jQuery methods for traversing sideways in the DOM tree:</p>
-<p>siblings()<br/>
-	next()<br/>
-	nextAll()<br/>
-	nextUntil()<br/>
-	prev()<br/>
-	prevAll()<br/>
-prevUntil()</p>
-
-<h5>jQuery closest() Method ?</h5>
-<p>closest() method is jquery default method</p>
-<p>The closest() method returns the first ancestor(means first parent based on passing parameter) of the selected element.</p>
-<span><img style="width:100%" src="images/est.png"></span>
-
-<h5>jQuery siblings() Method empl ?</h5>
-<p>The siblings() method returns all sibling elements of the selected element.</p>
-<span><img style="width:100%" src="images/sblng.jpg"></span></p>
-<h5>jQuery Traversing - Filtering methods</h5>
-<p> first(),
-	<b>The first() method returns the first element of the specified elements.</b>
-	<br/> last(),<b>The last() method returns the last element of the specified elements.</b><br/>
-	eq(),<b>The eq() method returns specific index number of the selected elements.</b><b> <span><img style="width:100%" src="images/eq.jpg"></span></p></b><br/> filter() <br/>not() <b>The not() method returns all elements that do not match the criteria.</b><br/><b>The not() method is the opposite of filter().</b><br/></p>
 
 	<h5>jQuery has()</h5>
 	<p>The has() method returns all the elements which matches at least one of the elements passed to this method.</p>
 	<span><img style="width:100%" src="images/has.jpg"></span></p>
 
 
-										
-                        </div>
-                        <div class="col-lg-6">
-                        	<h2>&nbsp;</h2><br/>
-                        	<h5>What Is Difference Between Window.Onload And OnDocumentReady ?</h5>
-										<p>The <onload> event doesn’t invoke until the page gets finished loading of CSS and images. It could cause a significant delay in rendering of the web page.<br/> As a web developer, we have to ensure the page should load as quick as possible. The event <onDocumentReady> lets us only wait for the DOM to initialize instead of delaying any action required.</p>
+	<h5>jQuery Traversing - Siblings</h5>
+	<p>There are many useful jQuery methods for traversing sideways in the DOM tree:</p>
+	<p>siblings() : method returns all sibling elements of the selected element.<br/>
+		<span><img style="width:100%" src="images/sl.jpg"></span>
+		next() : method returns the next sibling element of the selected element<br/>
+		nextAll() : method returns all next sibling elements of the selected element.<br/>
+		nextUntil() :method returns all next sibling elements between two given arguments.<br/>
+		prev()<br/>
+		prevAll()<br/>
+	prevUntil()</p>
+	<h5>jQuery Traversing - Filtering methods</h5>
+	<p> first(),
+		<b>The first() method returns the first element of the specified elements.</b>
+		<span><img style="width:100%" src="images/ff.jpg"></span>
+		<br/> last(),<b>The last() method returns the last element of the specified elements.</b><br/>
+	</p>
+	eq(),<b>The eq() method returns specific index number of the selected elements.</b><b>
+		<span><img style="width:100%" src="images/eq.jpg"></span></p></b><br/> filter() <br/>not() <b>The not() method returns all elements that do not match the criteria.</b><br/><b>The not() method is the opposite of filter().</b><br/></p>
+
+	
+		<h5>What is jQuery Ajax?</h5>
+		<p>AJAX is an standing for Asynchronous JavaScript and XML and this technology helps us to load data and exchange data with the server without a browser page refresh</p>
+		<span><img style="width:100%" src="images/ajx.png"></span>
 
 
-											<h5>How Do You Change The Style/Class On Any Element From JavaScript?</h5>
-											<p>document.getElementById(“input”).style.fontSize = “10”;<br/>
-												-or-<br/>
-											document.getElementById(“button”).className = “classname”;</p>
-											<h5>What Are Different Types Of Popup Boxes Available In JavaScript?</h5>
-											<p><b>Alert</b> – It just has a <Ok> button to proceed.<br/>
-												<b>Confirm</b> – It pops up a window showing up <Ok> and <Cancel> buttons.<br/>
-													<b> Prompt</b> – It gives a dialog asking for user input followed by showing <Ok>/<Cancel> buttons.</p>
-														<h5>what is the difference between let and var ?</h5>
-														<p>The main difference is the scope difference</p>
-														<p>while let can be only available inside the scope it's declared, like in for loop,</p>
-														<p>var can be accessed outside the loop also</p>
-														<span><img src="images/var.jpg"></span>
+		<h5>What does ajax() method do?</h5>
+		<p>This method sends an asynchronous http request to the server.</p>
+		<h5>What does the ajax method load() do?</h5>
+		<p>The load() method sends an http request to load the html or text content from the server and adds them to the DOM element(s).</p>
+		<p>syntax : $(selector).load(URL,data,callback);</p>
+		<h5>What are the jQuery Ajax Events?</h5>
+		<p>The jQuery library also includes events which will be fired based on the state of the Ajax request, these are called Ajax events.</p>
+		<h5>jQuery - AJAX get() and post() Methods</h5>
+		<p>using  jQuery get() and post() methods we can request data from the server</p>
+		<p>GET - Requests data from a specified resource (GET is basically used for just getting (retrieving) some data from the server <i>The GET method may return cached data</i>)</p>
+		<p>syntax : $.get(URL,callback);</p>
+		<p>$.get()</p>
+		<p>POST - Submits data to be processed to a specified resource (POST can also be used to get some data from the server.<i>However, the POST method NEVER caches data</i>)</p>
+		<p>syntax : $.post(URL,data,callback);</p>
+		<p>$.post()</p>
+		<h5>jQuery - The noConflict() Method</h5>
+		<p>Whenever using different types of frameworks that time it will Conflict so using noConflict() Method</p>
+		<span><img style="width:100%" src="images/no.jpg"></span>
+		<p>here we can create our own shortcut by storing noConflict() method in variable </p>
+		<span><img style="width:100%" src="images/vq.jpg"></span>
+		<p>like this also we can use below</p>
+		<span><img style="width:100%" src="images/dg.jpg"></span>
 
 
-														
-														
-														<h5>Use of Jquery ready function. ?</h5>
-														<p>Jquery recommends use of $(document).ready(function(){ }) or $(function(){ }) in script tag to write jquery syntax. Jquery ready function execute Jquery functions after all html elements are loaded, before images, iframes, ads are loaded.</p>
 
-														<h5>What is jQuery Ajax?</h5>
-														<p>AJAX is an acronym standing for Asynchronous JavaScript and XML and this technology helps us to load data and exchange data with the server without a browser page refresh</p>
-														<span><img style="width:100%" src="images/ajx.png"></span>
+		<h5>What is jQuery connect?</h5>
+		<p>A ‘ jQuery connect’  is a plugin used to connect or bind a function with another  function. Connect is used to execute function from any other function or plugin is executed.</p>
+		<h5>What is the use of each function in jQuery?</h5>
+		<p>Each function is used to iterate each and every element of an object. It is used to loop DOM elements, arrays and the object properties.</p>
+		<h5>What is the difference between size and length of jQuery?</h5>
+		<P>Size and length both returns the number of element in an object. But length is faster than the size because length is a property and size is a method.</P>
+		<h5>What are the four parameters used for jQuery Ajax method?</h5>
+		<p>The four parameters are<br/>
+
+			URL – Need to specify the URL to send the request<br/>
+			type – Specifies type of request(Get or Post)<br/>
+			data – Specifies data to be sent to server<br/>
+		Cache – Whether the browser should cache the requested page</p>
+
+		<h5>How can we debug jQuery?</h5>
+		<p>There are two ways to debug jQuery:<br/>Add the debugger to the line from where we have to start debugging and then run Visual Studio in Debug mode with F5 function key.<br/>Insert a break point after attaching the process</p>
+		<h5>What is the use of jQuery.ajax method ()?</h5>
+		<p>jQuery.ajax method is used for asynchronous HTTP requests.</p>
+		<h5>What is called chaining?</h5>
+		<p>Chaining is used to connect multiple jQuery methods and functions in a selector.</p>
+		<h5>What Is Difference Between Window.Onload And OnDocumentReady ?</h5>
+		<p>The <onload> event doesn’t invoke until the page gets finished loading of CSS and images. It could cause a significant delay in rendering of the web page.<br/> As a web developer, we have to ensure the page should load as quick as possible. The event <onDocumentReady> lets us only wait for the DOM to initialize instead of delaying any action required.</p>
 
 
-														<h5>What does ajax() method do?</h5>
-														<p>This method sends an asynchronous http request to the server.</p>
-														<h5>What does the ajax method load() do?</h5>
-														<p>The load() method sends an http request to load the html or text content from the server and adds them to the DOM element(s).</p>
-														<h5>What are the jQuery Ajax Events?</h5>
-														<p>The jQuery library also includes events which will be fired based on the state of the Ajax request, these are called Ajax events.</p>
-														
+			<h5>How Do You Change The Style/Class On Any Element From JavaScript?</h5>
+			<p>document.getElementById(“input”).style.fontSize = “10”;<br/>
+				-or-<br/>
+			document.getElementById(“button”).className = “classname”;</p>
+			<h5>What Are Different Types Of Popup Boxes Available In JavaScript?</h5>
+			<p><b>Alert</b> – It just has a <Ok> button to proceed.<br/>
+				<b>Confirm</b> – It pops up a window showing up <Ok> and <Cancel> buttons.<br/>
+					<b> Prompt</b> – It gives a dialog asking for user input followed by showing <Ok>/<Cancel> buttons.</p>
+						<h5>what is the difference between let and var ?</h5>
+						<p>The main difference is the scope difference</p>
+						<p>while let can be only available inside the scope it's declared, like in for loop,</p>
+						<p>var can be accessed outside the loop also</p>
+						<span><img src="images/var.jpg"></span>
 
-														
 
 
-														<h5>What are the types of selectors in jQuery?</h5>
-														<p>CSS Selector<br/>
-															XPath Selector<br/>
-														Custom Selector</p>
-														<h5> What is difference between $(this) and this in jQuery ?</h5>
-														<p>this and $(this) references the same element but the difference is that “this” is used in traditional way but when “this” is used with $() then it becomes a jQuery object on which we can use the functions of jQuery.?<br/><span><img  src="images/this.jpg"></span></p>
-														<h5>What is JQuery.noConflict?</h5>
-														<p>In order to help the system to overcome the conflicts between the different libraries and frameworks the jQuery no-conflict option given by the jQuery. This concept is really advanced which has been developed over the recent times.</p>
-														<h5>What is jQuery UI?</h5>
-														<p> jQuery UI is a set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. jQuery UI works well for highly interactive web applications with many controls or for a simple page with a date picker control.</p>
-														<h5>What is the use of jQuery filter?</h5>
-														<p>.eq()<br/>
-															.first()<br/>
-															.last()<br/>
-															.filter()<br/>
-															.has()<br/>
-														.not()</p>
-														<h5>What is the usage of Draggable, Droppable, Resizable, Selectable in jQuery UI?</h5>
-														<p>There are only 5 plugins available in the interaction section; that is Draggable, Droppable, Resizable, Selectable and Sortable. Interaction Plugins handles complex behaviors such as drag and drop, resizing, selection and sorting.</p>
 
-														<h5>Is JavaScript Case Sensitive?</h5>
-														<p>Yes, Javascript is case-sensitive. But HTML and CSS are not.</p>
-														<h5>What is the use of Void(0)?</h5>
-														<p>Void(0) is used to prevent the page from refreshing and parameter "zero" is passed while calling.<br/>
+						<h5>Use of Jquery ready function. ?</h5>
+						<p>Jquery recommends use of $(document).ready(function(){ }) or $(function(){ }) in script tag to write jquery syntax. Jquery ready function execute Jquery functions after all html elements are loaded, before images, iframes, ads are loaded.</p>
 
-														Void(0) is used to call another method without refreshing the page.</p>
-														<h5>Explain what is pop()method in JavaScript?</h5>
-														<p>The pop() method is similar as the shift() method but the difference is that the Shift method works at the start of the array. Also the pop() method take the last element off of the given array and returns it. The array on which is called is then altered.
-															<span><img src="images/pop.jpg"></span></p>
-														</p>
+						
+
+
+
+
+
+						<h5>What are the types of selectors in jQuery?</h5>
+						<p>CSS Selector<br/>
+							XPath Selector<br/>
+						Custom Selector</p>
+						<h5> What is difference between $(this) and this in jQuery ?</h5>
+						<p>this and $(this) references the same element but the difference is that “this” is used in traditional way but when “this” is used with $() then it becomes a jQuery object on which we can use the functions of jQuery.?<br/><span><img  src="images/this.jpg"></span></p>
+						<h5>What is JQuery.noConflict?</h5>
+						<p>In order to help the system to overcome the conflicts between the different libraries and frameworks the jQuery no-conflict option given by the jQuery. This concept is really advanced which has been developed over the recent times.</p>
+						<h5>What is jQuery UI?</h5>
+						<p> jQuery UI is a set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. jQuery UI works well for highly interactive web applications with many controls or for a simple page with a date picker control.</p>
+						<h5>What is the use of jQuery filter?</h5>
+						<p>.eq()<br/>
+							.first()<br/>
+							.last()<br/>
+							.filter()<br/>
+							.has()<br/>
+						.not()</p>
+						<h5>What is the usage of Draggable, Droppable, Resizable, Selectable in jQuery UI?</h5>
+						<p>There are only 5 plugins available in the interaction section; that is Draggable, Droppable, Resizable, Selectable and Sortable. Interaction Plugins handles complex behaviors such as drag and drop, resizing, selection and sorting.</p>
+
+						<h5>Is JavaScript Case Sensitive?</h5>
+						<p>Yes, Javascript is case-sensitive. But HTML and CSS are not.</p>
+						<h5>What is the use of Void(0)?</h5>
+						<p>Void(0) is used to prevent the page from refreshing and parameter "zero" is passed while calling.<br/>
+
+						Void(0) is used to call another method without refreshing the page.</p>
+						<h5>Explain what is pop()method in JavaScript?</h5>
+						<p>The pop() method is similar as the shift() method but the difference is that the Shift method works at the start of the array. Also the pop() method take the last element off of the given array and returns it. The array on which is called is then altered.
+							<span><img src="images/pop.jpg"></span></p>
+						</p>
                            <!--  <h5>What are the features of JavaScript?</h5>
                             <p><span><img src="images/far.jpg"></span></p>
                             <h5>What are the advantages of JavaScript?</h5>
@@ -313,16 +420,16 @@ prevUntil()</p>
 
 
 
-                        	
 
 
 
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- end section about us -->
 
