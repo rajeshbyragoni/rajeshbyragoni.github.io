@@ -112,8 +112,16 @@
            <h5>Step 7: Generate pipe in Angular</h5>
            <p>ng generate pipe [pipename]</p>
            <h5>Step 8: Generate ng build in Angular</h5>
-           <p>ng build --prod (upload to server)</p>
-            <h5></h5>
+           <p>ng build --prod (upload to server) <br/>(or)**** <br/>ng build --prod --base-href / </p>
+           <p>after build it will create dist folder in that that project folder it will come after that that file need to upload to server</p>
+           <p>in that index.html page we need to give after build (/dist/) folder name </p>
+            <h5>how to add seo ?</h5>
+            <p>first we need to import mata and title like below which page we want that page if all page means all pages same below code apply to ts component</p>
+            <span><img src="images/seo.png" style="width:100%"></span>
+            <p>after adding all pages we need to run below commond</p>
+            <p><b>ng add @ng-toolkit/universal</b></p>
+            <p>after that run below command</p>
+            <p><b>npm run build:prod</b></p>
              <h5></h5>
               <h5></h5>
                <h5></h5>
