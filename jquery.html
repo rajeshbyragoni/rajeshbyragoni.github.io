@@ -343,7 +343,7 @@ empty() - Removes the child elements from the selected element</b></p>
 		<h5>What is called chaining?</h5>
 		<p>Chaining is used to connect multiple jQuery methods and functions in a selector.</p>
 		<h5>What Is Difference Between Window.Onload And OnDocumentReady ?</h5>
-		<p>The <onload> event doesn’t invoke until the page gets finished loading of CSS and images. It could cause a significant delay in rendering of the web page.<br/> As a web developer, we have to ensure the page should load as quick as possible. The event <onDocumentReady> lets us only wait for the DOM to initialize instead of delaying any action required.</p>
+		<p>The <onload>“window. onload”  will execute code when browser has loaded the DOM tree and all other resources like images, objects, <onDocumentReady> allows you to execute code when only the DOM tree has been built, without waiting for images to load</p>
 
 
 			<h5>How Do You Change The Style/Class On Any Element From JavaScript?</h5>
@@ -352,8 +352,8 @@ empty() - Removes the child elements from the selected element</b></p>
 			document.getElementById(“button”).className = “classname”;</p>
 			<h5>What Are Different Types Of Popup Boxes Available In JavaScript?</h5>
 			<p><b>Alert</b> – It just has a <Ok> button to proceed.<br/>
-				<b>Confirm</b> – It pops up a window showing up <Ok> and <Cancel> buttons.<br/>
-					<b> Prompt</b> – It gives a dialog asking for user input followed by showing <Ok>/<Cancel> buttons.</p>
+				<b>Confirm</b> – It pops up a window showing up Ok and Cancel buttons.<br/>
+					<b> Prompt</b> – It gives a dialog asking for user input followed by showing Ok/Cancel buttons.</p>
 						<h5>what is the difference between let and var ?</h5>
 						<p>The main difference is the scope difference</p>
 						<p>while let can be only available inside the scope it's declared, like in for loop,</p>
